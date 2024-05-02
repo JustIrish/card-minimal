@@ -10,6 +10,8 @@ import { ColorPicker } from './color-utils';
 import Iconify from './iconify';
 import ToggleCards from './ToggleCards';
 
+import hoodie from '../assets/images/hoodie.jpg';
+
 const COLOR_OPTIONS = ['#000000', '#FFFFFF', '#00B8D9', '#22C55E', '#FFAB00', '#FF5630'];
 
 function ProductCard({ product }) {
@@ -25,7 +27,7 @@ function ProductCard({ product }) {
     <Card sx={{ p: 3, maxWidth: 1000 }}>
       <Stack direction="row" gap={5} alignItems="center" justifyContent="center">
         <Box>
-          <img alt={name} src={coverUrl} width={350} />
+          <img alt={name} src={hoodie} width={350} />
         </Box>
 
         <Stack spacing={2.5} sx={{ p: 3, pt: 2, width: '50%' }}>
