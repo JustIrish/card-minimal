@@ -1,0 +1,10 @@
+[
+  {
+    "id": "id-1",
+    "title": "Raven Hoodie With Black colored Design",
+    "name": "hoodie",
+    "price": "$63.00",
+
+    "coverUrl": "src/assets/images/hoodie.jpg"
+  }
+]

@@ -2,7 +2,11 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+}
+
+p {
+  padding: 0;
+  margin: 0;
 }
 
 .logo {
@@ -39,4 +43,36 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.card-title {
+  font-size: 36px;
+  margin: 0;
+  color: #3c4242;
+}
+
+.star-icon {
+  width: 12px;
+  height: 12px;
+}
+
+.product-rating {
+  font-size: 14px;
+  font-weight: 400;
+  color: #807d7e;
+}
+
+.select-desc {
+  color: #3f4646;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.product-price {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 5px 20px;
+  color: #3c4242;
+  border: 1px solid #3c4242;
+  border-radius: 8px;
 }
