@@ -3,6 +3,9 @@ import { Suspense } from 'react';
 import ThemeProvider from './theme';
 import './App.css';
 
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+
 import LoadingScreen from './components/loading-screen/loading-screen';
 
 import ProductCard from './components/ProductCard';
